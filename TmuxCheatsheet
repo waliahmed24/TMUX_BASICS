@@ -1,0 +1,23 @@
+WINDOW(TABS) press the prefix keys before typing any of the following commands:
+
+(1) c <create window>
+(2) w <list windows>
+(3) n <next window>
+(4) p <previous window>
+(5) , <name window>
+(6) & <kill window>
+
+
+PANES(SPLITS) press the prefix keys before typing any of the following commands
+
+(1) x <kill pane>
+(2) : resize-pane -D <resizes the current pane downwards>
+(3) : resize-pane -U <resizes the current pane upwards>
+(4) : resize-pane -L <resizes the current pane leftwards>
+(5) : resize-pane -R <resizes the current pane rightwards>
+
+
+DISABLE TMUX STATUS BAR:
+
+tmux set -g status off
+
